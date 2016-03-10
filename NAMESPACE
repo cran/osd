@@ -1,0 +1,7 @@
+#exportPattern("^[[:alpha:]]+")
+
+export(osd, plotOSDres, normalize)
+
+importFrom("graphics", "lines", "matplot", "plot", "text")
+importFrom("stats", "coefficients", "cor", "na.fail", "prcomp")
+import(JADE, nnls)
